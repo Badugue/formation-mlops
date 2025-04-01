@@ -98,7 +98,9 @@ def train(
         }
         # Infer the signature including parameters
         signature = mlflow.models.infer_signature(
-            params=inference_params,
+            model_input=["toto", "titi"],
+            model_output=None,
+            params=inference_params
         )
 
         mlflow.pyfunc.log_model(
