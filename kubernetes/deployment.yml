@@ -15,11 +15,11 @@ spec:
     spec:
       containers:
         - name: api
-          image: inseefrlab/formation-mlops:no-logs
+          image: exeio/codification-api:v1.0.0
           imagePullPolicy: Always
           env:
             - name: MLFLOW_TRACKING_URI
-              value: https://user-<user-igorbad>-<pod_id>.user.lab.sspcloud.fr
+              value: https://user-igorbad-mlflow.user.lab.sspcloud.fr
             - name: MLFLOW_MODEL_NAME
               value: fasttext
             - name: MLFLOW_MODEL_VERSION

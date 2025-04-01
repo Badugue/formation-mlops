@@ -5,9 +5,9 @@ metadata:
 spec:
   tls:
     - hosts:
-        - <Igor-marie>-<BADUGUE>-api.lab.sspcloud.fr
+        - igorbadugue-api.lab.sspcloud.fr
   rules:
-    - host: <Igor-marie>-<BADUGUE>-api.lab.sspcloud.fr
+    - host: igorbadugue-api.lab.sspcloud.fr
       http:
         paths:
           - path: /
