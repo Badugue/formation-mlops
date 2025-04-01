@@ -1,0 +1,1 @@
+Meilleur modèle sélectionné avec paramètres : {'learning_rate': 0.01, 'max_depth': 5}, Accuracy: 0.9565, AUC: 0.9936, F1: 0.9560.
